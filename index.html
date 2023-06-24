@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>COVID Vaccination Booking</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>COVID Vaccination Booking</h1>
+
+  <!-- User Login Form -->
+  <div id="userLogin">
+    <h2>User Login</h2>
+    <input type="email" id="email" placeholder="Email">
+    <input type="password" id="password" placeholder="Password">
+    <button id="loginBtn">Login</button>
+  </div>
+
+  <!-- User Signup Form -->
+  <div id="userSignup">
+    <h2>User Signup</h2>
+    <input type="text" id="name" placeholder="Name">
+    <input type="email" id="email" placeholder="Email">
+    <input type="password" id="password" placeholder="Password">
+    <button id="signupBtn">Signup</button>
+  </div>
+
+  <!-- Vaccination Centre Search -->
+  <div id="vaccinationCentreSearch">
+    <h2>Search for Vaccination Centre</h2>
+    <input type="text" id="searchQuery" placeholder="Search by name or location">
+    <button id="searchBtn">Search</button>
+    <div id="searchResults"></div>
+  </div>
+
+  <!-- Apply for Vaccination Slot -->
+  <div id="applySlot">
+    <h2>Apply for Vaccination Slot</h2>
+    <input type="text" id="userId" placeholder="User ID">
+    <input type="text" id="centreId" placeholder="Vaccination Centre ID">
+    <button id="applyBtn">Apply</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
